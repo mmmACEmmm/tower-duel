@@ -1,0 +1,5 @@
+body, html { margin:0; padding:0; width:100%; height:100%; overflow:hidden; font-family:Poppins,sans-serif; }
+#hud { position:absolute; top:10px; width:100%; display:flex; justify-content:center; gap:2rem; color:#fff; z-index:10; }
+.view { position:absolute; top:50px; bottom:0; width:50%; }
+#view1 { left:0; } #view2 { right:0; }
+#round, #timer { background:rgba(0,0,0,0.5); padding:0.5rem 1rem; border-radius:4px; }
